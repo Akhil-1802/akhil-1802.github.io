@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akhil Maindola — Full Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Nav -->
+<nav>
+  <div class="nav-logo">akhilmaindola.dev</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="grid-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-tag">✦ Full Stack Web Developer</div>
+    <h1 class="hero-name">Akhil<br><span>Maindola</span></h1>
+    <p class="hero-title">Full Stack Developer &nbsp;/&nbsp; Real-time Systems &nbsp;/&nbsp; Production Architecture</p>
+    <p class="hero-bio">
+      Full Stack Developer specializing in scalable web applications, secure authentication,
+      real-time systems, and production-ready architecture using Node.js, Express, MongoDB,
+      React, and Next.js.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View My Work ↓</a>
+      <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+    </div>
+    
+  </div>
+</section>
+
+<!-- ── EDUCATION ── -->
+<section id="education">
+  <div class="section-header reveal" style="max-width:1100px;margin:0 auto;">
+    <div class="section-label">02 — Education & Skills</div>
+    <h2 class="section-title">Background &<br>Expertise</h2>
+  </div>
+
+  <div class="edu-grid">
+    <div class="edu-card reveal">
+      <div class="edu-degree">B.Tech (Computer Science & Engineering)</div>
+      <div class="edu-school">ABES Institute of Technology, Ghaziabad</div>
+      <div class="edu-year">2023 – 2027</div>
+      <div class="edu-desc">
+        Focused on software systems, real-time applications, and cloud-native architecture.
+        Coursework covered data structures, algorithms, operating systems, databases,
+        networking, and modern web engineering.
+      </div>
+    </div>
+
+    <div class="edu-card reveal">
+      <div class="edu-degree">Higher Secondary (12th), CBSE</div>
+      <div class="edu-school">Kendriya Vidyalaya No.1 AFS Hindan, Ghaziabad</div>
+      <div class="edu-year">2023 &nbsp;·&nbsp; Score: 90%</div>
+      <div class="edu-desc">
+        Built a strong foundation in mathematics and computer science fundamentals
+        while maintaining high academic performance.
+      </div>
+    </div>
+
+    <div class="edu-card reveal">
+      <div class="edu-degree">Secondary School (10th), CBSE</div>
+      <div class="edu-school">Kendriya Vidyalaya No.1 AFS Hindan, Ghaziabad</div>
+      <div class="edu-year">2021 &nbsp;·&nbsp; Score: 92%</div>
+      <div class="edu-desc">
+        Demonstrated strong analytical and problem-solving ability with top academic marks.
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="skills-section reveal">
+    <div class="skills-title">// Technical Proficiency</div>
+    <div class="skills-groups">
+
+      <div class="skill-row">
+        <div class="skill-cat">Languages</div>
+        <div class="skill-tags">
+          <span class="tag tag-green">JavaScript</span>
+          <span class="tag tag-green">Java</span>
+          <span class="tag tag-green">Python</span>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-cat">Backend</div>
+        <div class="skill-tags">
+          <span class="tag tag-blue">Node.js</span>
+          <span class="tag tag-blue">Express.js</span>
+          <span class="tag tag-blue">REST APIs</span>
+          <span class="tag tag-blue">JWT</span>
+          <span class="tag tag-blue">Socket.IO</span>
+          <span class="tag tag-blue">AWS</span>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-cat">Frontend</div>
+        <div class="skill-tags">
+          <span class="tag tag-green">React</span>
+          <span class="tag tag-green">Next.js</span>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-cat">Database</div>
+        <div class="skill-tags">
+          <span class="tag tag-gold">MongoDB</span>
+          <span class="tag tag-gold">PostgreSQL</span>
+          <span class="tag tag-gold">Redis</span>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-cat">Tools</div>
+        <div class="skill-tags">
+          <span class="tag tag-green">Git</span>
+          <span class="tag tag-green">Docker</span>
+          <span class="tag tag-green">Linux</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="section-header reveal" style="max-width:1200px;margin:0 auto;">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title">Things I've<br>Built</h2>
+  </div>
+
+  <div class="projects-grid">
+
+    <div class="project-card p1 reveal">
+      <div class="project-banner">
+        <span class="featured-badge">★ Featured</span>
+        <span class="project-emoji">�</span>
+      </div>
+      <div class="project-body">
+        <div class="project-name">MoveSmart — Bus Tracking & Management</div>
+        <div class="project-desc">Real-time bus tracking platform with low-latency location updates using Socket.IO, automated email alerts, and a scalable Node.js + MongoDB backend.</div>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-pill">React</span>
+            <span class="stack-pill">Node.js</span>
+            <span class="stack-pill">MongoDB</span>
+            <span class="stack-pill">Socket.IO</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Akhil-1802/MoveSmart" class="project-link">GitHub</a>
+            <a href="https://keen-longma-e48170.netlify.app/" class="project-link">Live ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card p2 reveal">
+      <div class="project-banner">
+        <span class="featured-badge">★ Featured</span>
+        <span class="project-emoji">🎮</span>
+      </div>
+      <div class="project-body">
+        <div class="project-name">PlayVerse — Gaming Platform</div>
+        <div class="project-desc">Interactive gaming platform with user authentication, responsive UI, and real-time gameplay features designed for seamless web play.</div>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-pill">React</span>
+            <span class="stack-pill">Node.js</span>
+            <span class="stack-pill">MongoDB</span>
+            <span class="stack-pill">Socket.IO</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Akhil-1802/PlayVerse" class="project-link">GitHub</a>
+            <a href="https://playverse10.netlify.app" class="project-link">Live ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card p3 reveal">
+      <div class="project-banner">
+        <span class="project-emoji">☁️</span>
+      </div>
+      <div class="project-body">
+        <div class="project-name">DeployFlow — Deployment Platform</div>
+        <div class="project-desc">Built a Vercel-like deployment service to host React applications with automated build pipelines, Redis queues, and Cloudflare R2 storage.</div>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-pill">Node.js</span>
+            <span class="stack-pill">Redis</span>
+            <span class="stack-pill">Cloudflare R2</span>
+            <span class="stack-pill">React</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Akhil-1802/Vercel_Service" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card p4 reveal">
+      <div class="project-banner">
+        <span class="project-emoji">📡</span>
+      </div>
+      <div class="project-body">
+        <div class="project-name">API Monitoring System</div>
+        <div class="project-desc">Built a backend service to monitor API health by executing checks, tracking latency, and detecting incidents based on failure patterns.</div>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-pill">Node.js</span>
+            <span class="stack-pill">Express.js</span>
+            <span class="stack-pill">Monitoring</span>
+            <span class="stack-pill">Alerts</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Akhil-1802/API_Monitoring" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card p5 reveal">
+      <div class="project-banner">
+        <span class="project-emoji">🎯</span>
+      </div>
+      <div class="project-body">
+        <div class="project-name">Vision Board — Social Platform</div>
+        <div class="project-desc">Developed a full-stack social platform for sharing and discovering ideas with real-time interactions, authentication, and user engagement features.</div>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-pill">React</span>
+            <span class="stack-pill">Node.js</span>
+            <span class="stack-pill">Socket.IO</span>
+            <span class="stack-pill">Auth</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Akhil-1802/Vision_Board" class="project-link">GitHub</a>
+            <a href="https://vision-board-cyan.vercel.app/" class="project-link">Live ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-label reveal">04 — Contact</div>
+    <h2 class="section-title reveal" style="margin: 0 auto 1rem;">Let's Build<br>Something Great</h2>
+    <p class="contact-sub reveal">
+      I'm currently open to full-time roles, internships, and freelance projects.
+      Whether you have a role in mind or just want to say hello — my inbox is always open.
+    </p>
+    <div class="reveal">
+      <a href="mailto:akhilmaindola18@gmail.com" class="btn btn-primary" style="font-size:0.85rem;">
+        ✉ akhilmaindola18@gmail.com
+      </a>
+    </div>
+    <div class="social-row reveal">
+      <a href="https://github.com/Akhil-1802" class="social-link">⌂ GitHub</a>
+      <a href="https://www.linkedin.com/in/akhil-maindola-04b600296/" class="social-link">◈ LinkedIn</a>
+      <a href="https://leetcode.com/u/Akhil182/" class="social-link">◎ LeetCode — 200+ problems</a>
+      <a href="https://drive.google.com/file/d/1mMuIc1mLl1Q5apCkJ7jw-xqIxIGn7Cem/view?usp=sharing" class="social-link">↓ Resume PDF</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="footer-copy">© 2026 Akhil Maindola</span>
+  <div class="footer-dot"></div>
+  <span class="footer-copy">Ghaziabad, India</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
