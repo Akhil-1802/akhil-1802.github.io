@@ -1,3 +1,17 @@
+// Hamburger menu
+const hamburger = document.getElementById('hamburger');
+const navLinksEl = document.getElementById('navLinks');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('open');
+  navLinksEl.classList.toggle('open');
+});
+navLinksEl.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => {
+    hamburger.classList.remove('open');
+    navLinksEl.classList.remove('open');
+  });
+});
+
 // Custom cursor
 const cursor = document.getElementById('cursor');
 const ring = document.getElementById('cursorRing');
